@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- https://fonts.google.com/specimen/RocknRoll+One?preview.text_type=custom&preview.text=what%20year%20did%20javascript%20come%20out -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h3 id="question">Question Text</h3>
+            <!-- ul>li*4>input -->
+            <ul class="answer">
+                <li>
+                    <input type="radio" id="answerA" name="answer" class="answer">
+                    <label id="a_text" for="a">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" id="answerB" name="answer" class="answer">
+                    <label id="b_text" for="b">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" id="answerC" name="answer" class="answer">
+                    <label id="c_text" for="c">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" id="answerD" name="answer" class="answer">
+                    <label id="d_text" for="d">Answer</label>
+                </li>
+            </ul>
+
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
